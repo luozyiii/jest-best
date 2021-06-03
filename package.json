@@ -1,0 +1,29 @@
+{
+  "name": "jest-best",
+  "version": "1.0.0",
+  "description": "前端自动化测试-Jest 入门",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozyiii/jest-best.git"
+  },
+  "keywords": [
+    "Jest 前端自动化测试入门"
+  ],
+  "author": "leslie <924361501@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozyiii/jest-best/issues"
+  },
+  "homepage": "https://github.com/luozyiii/jest-best#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "core-js": "3",
+    "jest": "^27.0.3"
+  }
+}
