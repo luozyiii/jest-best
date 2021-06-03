@@ -110,6 +110,32 @@ yarn add axios -D
 
 ```javascript
 // Counter.js
-
 // Counter.test.js
+```
+
+### Jest Mock
+
+- 特点  
+  1.捕获函数的调用和返回结果，以及 this 和调用顺序  
+  2.它可以让我们自由的设置返回结果  
+  3.改变函数的内部实现
+
+```javascript
+// mock.js
+// mock.test.js
+```
+
+### vscode 插件
+
+```javascript
+// 安装jest 插件， 可以不用执行yarn test, vscode jest 会自动检测
+// 通过测试，代码前面✅
+Jest
+
+command + shift + p
+// 安装
+code command in Path
+
+// 以后可以在终端 在代码当前目录下 打开vscoe编辑器
+code ./
 ```
