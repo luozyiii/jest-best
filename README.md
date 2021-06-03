@@ -50,3 +50,36 @@ yarn add core-js@3 -D
   ]
 }
 ```
+
+- 简单的例子
+
+```javascript
+// math.js
+export function add(a, b) {
+  return a + b;
+}
+
+// math.test.js
+import { add } from './math';
+test('测试加法 3 + 7', () => {
+  expect(add(3, 7)).toBe(10);
+});
+
+// 运行
+yarn test
+```
+
+### 匹配器
+
+- 基础用法
+
+```javascript
+// matchers.test.js
+```
+
+- 监听测试文件的变化
+
+```javascript
+// package.json
+"test": "jest --watchAll"
+```
