@@ -23,6 +23,7 @@
     "@babel/core": "^7.14.3",
     "@babel/node": "^7.14.2",
     "@babel/preset-env": "^7.14.4",
+    "axios": "^0.21.1",
     "core-js": "3",
     "jest": "^27.0.3"
   }
