@@ -105,3 +105,11 @@ yarn add axios -D
 
 // fetchData.test.js
 ```
+
+### Jest 中的钩子函数
+
+```javascript
+// Counter.js
+
+// Counter.test.js
+```
