@@ -25,6 +25,7 @@
     "@babel/preset-env": "^7.14.4",
     "axios": "^0.21.1",
     "core-js": "3",
-    "jest": "^27.0.3"
+    "jest": "^27.0.3",
+    "prettier": "^2.3.1"
   }
 }

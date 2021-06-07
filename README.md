@@ -139,3 +139,24 @@ code command in Path
 // 以后可以在终端 在代码当前目录下 打开vscoe编辑器
 code ./
 ```
+
+### snapshot 快照测试
+
+> 适用于配置文件, UI 组件的测试
+
+核心：toMatchSnapshot、toMatchInlineSnapshot
+
+```javascript
+snapshot.test.js;
+```
+
+- 支持行内 snapshot
+
+```javascript
+// toMatchInlineSnapshot 将快照放到测试用例里面， 必须安装prettier 依赖
+yarn add prettier -D
+
+```
+
+当快照发生更新的时候，是否确定更新快照，按 w，确定更新按 u；
+多个快照需要更新，按 w，再按 i 进入交互模式选择，逐个确定按 u。
