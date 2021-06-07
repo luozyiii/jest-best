@@ -181,6 +181,14 @@ yarn add prettier -D
 
 ### Jest 中对 DOM 节点操作的测试
 
+```javascript
+// 安装 jquery
+yarn add jquery - D
+
+// dom.js dome.test.js
+
+```
+
 ### vscode 插件
 
 ```javascript
