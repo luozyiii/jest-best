@@ -125,6 +125,23 @@ yarn add axios -D
 // mock.test.js
 ```
 
+### Jest Mock 进阶
+
+- 本地模拟异步请求
+
+```javascript
+// mock2.js
+jest.mock('./mock2');
+
+// 或者更改全局配置 jest.config.js 测试文件可以不用写 jest.mock('./mock2');
+automock: true,
+
+// mock2 有个getNumber同步方法需要真实mock2.js 的调用
+const { getNumber } = jest.requireActual('./mock2');
+```
+
+### Jest Mock Timers
+
 ### vscode 插件
 
 ```javascript

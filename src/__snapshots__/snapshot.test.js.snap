@@ -5,7 +5,7 @@ Object {
   "domain": "localhost",
   "port": 8080,
   "server": "http://localhost",
-  "time": 2021-06-07T07:13:08.089Z,
+  "time": Any<Date>,
 }
 `;
 
