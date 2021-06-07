@@ -3,16 +3,16 @@ import Counter from './Counter';
 let counter = null;
 
 beforeAll(() => {
-  console.log('beforeAll');
+  // console.log('beforeAll');
 });
 
 beforeEach(() => {
-  console.log('beforeEach');
+  // console.log('beforeEach');
   counter = new Counter();
 });
 
 afterAll(() => {
-  console.log('afterAll');
+  // console.log('afterAll');
 });
 
 describe('测试分组1', () => {

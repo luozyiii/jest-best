@@ -150,21 +150,6 @@ jest.runAllTimers(); // 执行所有定时器
 jest.advanceTimersByTime(3000); // 快进3秒
 ```
 
-### vscode 插件
-
-```javascript
-// 安装jest 插件， 可以不用执行yarn test, vscode jest 会自动检测
-// 通过测试，代码前面✅
-Jest
-
-command + shift + p
-// 安装
-code command in Path
-
-// 以后可以在终端 在代码当前目录下 打开vscoe编辑器
-code ./
-```
-
 ### snapshot 快照测试
 
 > 适用于配置文件, UI 组件的测试
@@ -185,3 +170,28 @@ yarn add prettier -D
 
 当快照发生更新的时候，是否确定更新快照，按 w，确定更新按 u；
 多个快照需要更新，按 w，再按 i 进入交互模式选择，逐个确定按 u。
+
+### ES6 中类的测试
+
+```javascript
+// 单元测试 utils.js utils.test.js
+
+// 集成测试 demo.js demo.test.js
+```
+
+### Jest 中对 DOM 节点操作的测试
+
+### vscode 插件
+
+```javascript
+// 安装jest 插件， 可以不用执行yarn test, vscode jest 会自动检测
+// 通过测试，代码前面✅
+Jest
+
+command + shift + p
+// 安装
+code command in Path
+
+// 以后可以在终端 在代码当前目录下 打开vscode编辑器
+code ./
+```
