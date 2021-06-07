@@ -142,6 +142,14 @@ const { getNumber } = jest.requireActual('./mock2');
 
 ### Jest Mock Timers
 
+```javascript
+// timer.js timer.test.js
+jest.useFakeTimers(); // 模拟定时器
+jest.runAllTimers(); // 执行所有定时器
+
+jest.advanceTimersByTime(3000); // 快进3秒
+```
+
 ### vscode 插件
 
 ```javascript
